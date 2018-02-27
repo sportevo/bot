@@ -1,0 +1,29 @@
+{
+  "name": "sportevobot",
+  "version": "0.0.1",
+  "description": "chatbot sportevo",
+  "main": "index.js",
+  "dependencies": {
+    "botpress": "1.x",
+    "botpress-messenger": "git+https://github.com/botpress/botpress-messenger.git",
+    "botpress-platform-webchat": "^0.4.7",
+    "botpress-terminal": "^1.0.2",
+    "botpress-web": "1.x",
+    "email-templates": "^3.3.3",
+    "nodemailer": "^4.4.2",
+    "pug": "^2.0.0-rc.4",
+    "react": "^16.2.0",
+    "react-codemirror": "^1.0.0",
+    "react-dom": "^16.2.0",
+    "react-media-player": "^0.7.0"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 8.0"
+  },
+  "author": "samuele ligorio",
+  "license": "Botpress Proprietary License"
+}
