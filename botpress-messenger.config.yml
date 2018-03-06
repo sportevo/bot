@@ -2,10 +2,10 @@
 # This is regular YAML syntax. See http://docs.ansible.com/ansible/YAMLSyntax.html
 # You can override these settings with ENV variables. They are commented below.
 
-# hostname: "https://sportvobot.herokuapp.com/api/botpress-messenger/webhook" # MESSENGER_HOST
+# hostname: "https://sportevobot.herokuapp.com/api/botpress-messenger/webhook" # MESSENGER_HOST
 
 # applicationID: "1964733953770879" # MESSENGER_APP_ID
-# accessToken: "EAAb66kVkhX8BAFrN4wh5nnoELHlddbKjumjH0nCqxtG4YjrlS09EZBBspveVRhCGstRFaZCnaZCt9DgiaZBYM9Lqus91q3GKOOZCAuWYuL0UHB1f4YPh39ZAsnReT9dhUn473UfrR83fnXzfwUJNZAsYHgs1437VzFCemVmk8aqZBwZDZD" # MESSENGER_ACCESS_TOKEN
+# accessToken: "EAAb66kVkhX8BADgDi2QTN6OUyZBR0z8QfYoPKF8ZCxLpABdZBZBAr6nWz7ZA0rjScZActPzzwiHpMsiZBquzgyZC0gRMrqfEV35ZBAbOXGl8j4BzEBnBI7PfkKUypSO3FnxeZBfxfgY1CAEp3dSFyMVoJqHKqDZCPLAHtlFnBT6rGs21wZDZD" # MESSENGER_ACCESS_TOKEN
 # appSecret: "4a293ad9bd43ba65972b7ebacd2520e6" # MESSENGER_APP_SECRET
 
 # verifyToken: "" # MESSENGER_VERIFY_TOKEN

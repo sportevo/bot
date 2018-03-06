@@ -2,29 +2,29 @@
 
  WelcomeSentences: 
      -text: Welcome to sportevo! 
-	 typing: true
+	  typing: true
 	 - wait: 2s
-     -text: we are here to help!
-	 typing: true
+     - text: we are here to help!
+	   typing: true
 	 - wait: 2s
-     -text : but first of all we need to know if youre a costumer or a Furnisher?
-      quick_replies:
-	  -<QR_Costumer> I'm a costumer!
-	  -<QR_furnisher> I'm  Furnisher!
+     - text : but first of all we need to know if youre a costumer or a Furnisher?
+       quick_replies:
+		 -<QR_Costumer> I'm a costumer!
+		 -<QR_furnisher> I'm  Furnisher!
 	  
 WelcomeSentences_QR_Costumer:# this is the costumer bloc
-   typing: true
-      - wait: 2s
-   -text: 
-      - welcome in the costumer area!
-   -text: what are you looking for? choose between those section below!
-    quick_replies:
-      - <QR_JC> join our community!
-      - <QR_InfoP> products information.
-	  - <QR_CaT> complaints and tracking.
-	  - <QR_InfoG> general support.
-	  - <QR_Home> go back to the home menu.
-	  - <QR_ByeB> Goodbye!
+    - typing: true
+      wait: 2s
+      text:
+        - welcome in the costumer area!
+    - text: what are you looking for? choose between those section below!
+      quick_replies:
+        - <QR_JC> join our community!
+        - <QR_InfoP> products information.
+		- <QR_CaT> complaints and tracking.
+		- <QR_InfoG> general support.
+		- <QR_Home> go back to the home menu.
+		- <QR_ByeB> Goodbye!
 
 
 Home:
@@ -35,15 +35,17 @@ Home:
 	  -<QR_furnisher> I'm  Furnisher!
 
 QR_JC:
-	typing: true
-	 - wait: 2s
-	text: Hello! Sportevo is first of all a meeting place where all Sportevi from all over the world are connected
-	typing: true
-	 - wait: 2s
-	text: it's a toolkit to experience your passion and profession in Sport.
-	typing: true
-	 - wait: 1s
-	 text: Join our community and begin to #PlayLikeaPro!
+	- typing: true
+	  wait: 2s
+	  text:
+		- Hello! Sportevo is first of all a meeting place where all Sportevi from all over the world are connected
+	- typing: true
+	  wait: 2s
+	  text:
+		- it's a toolkit to experience your passion and profession in Sport.
+	- typing: true
+	  wait: 1s
+	  text: Join our community and begin to #PlayLikeaPro!
 	  quick_replies:
 	    - <QR_Ryada> Ryada
 		- <QR_IG> Instagram
@@ -51,45 +53,45 @@ QR_JC:
 		- <QR_ByeB> say goodbye!
 
 Ryada:
-	text: If you are a sport enthusiast and do you like travelling don't you think it would be fantastic to travel around the world practising your favourite sport?
-	typing: true
-	 - wait: 2s
-	text: Ryada is the online community where you can host/be hosted for free and meet other sport passionates thanks to your sport!
-	typing: true
-	 - wait: 2s
-	text: Join us! 
-	text: https://sportevo.pro/playlikeapro/ryada-sport-travel-community/
-	typing: true
-	 - wait: 2s
-	text: what do you want to do now?
-	 quick_replies:
-	  - <QR_Costumer> Go back to the consumer menu
-	  - <QR_ByeB> say goodbye!
+	- text: If you are a sport enthusiast and do you like travelling don't you think it would be fantastic to travel around the world practising your favourite sport?
+	- typing: true
+	  wait: 2s
+	  text: Ryada is the online community where you can host/be hosted for free and meet other sport passionates thanks to your sport!
+	- typing: true
+	  wait: 2s
+	  text: Join us! 
+	  text: https://sportevo.pro/playlikeapro/ryada-sport-travel-community/
+	- typing: true
+	  wait: 2s
+	  text: what do you want to do now?
+	  quick_replies:
+	    - <QR_Costumer> Go back to the consumer menu
+	    - <QR_ByeB> say goodbye!
 
  IG_contact:
-	text: Follow us on Instagram at the link below and find out our motivational quote every week!
-	typing: true
-	 - wait: 2s
-	 text: You will also find some amazing pics of your favourite products and your favourite sport!
-	 text: https://www.instagram.com/sportevo.pro/
-	 text: what do you want to do now?
-	 quick_replies:
-	  - <QR_Costumer> Go back to the consumer menu
-	  - <QR_ByeB> say goodbye!
+	- text: Follow us on Instagram at the link below and find out our motivational quote every week!
+	- typing: true
+	  wait: 2s
+	  text: You will also find some amazing pics of your favourite products and your favourite sport!
+	- text: https://www.instagram.com/sportevo.pro/
+	- text: what do you want to do now?
+	  quick_replies:
+	    - <QR_Costumer> Go back to the consumer menu
+	    - <QR_ByeB> say goodbye!
 
 Help_Needed:
-	-text: Do you need further information about the products?
-	  typing: true
-	  - wait: 1s
-	- text: Don't worry! we are here to help you! 
-	  typing: true
-	   - wait: 1s
-	- text: Just click on the link below to send us a messsage with the questions you have!:)
+	- text: Do you need further information about the products?
+	- typing: true
+	  wait: 1s
+	  text: Don't worry! we are here to help you! 
+	- typing: true
+	  wait: 1s
+	  text: Just click on the link below to send us a messsage with the questions you have!:)
 	- text: this is the form you will find!
-	   image: https://imgur.com/yswJYPI
+	  image: https://imgur.com/yswJYPI
 	- text: http://sportevo.pro/ticket_create.php
-	  typing: true
-	    - wait: 1s
+	- typing: true
+	  wait: 1s
 	- text: Our team will reply as soon as possible!
 	- text: what do you want to do now?
 	   quick_replies:
@@ -107,13 +109,13 @@ ComTra:
 Complaints:
  - text: Do you have any complain about your order?
  - text: No problem! 
-     typing: true
-	   - wait: 1s
- - text: We are here to listen to you:)
-     typing: true
-	   - wait: 2s
- - text: Just fill the ticket like the one in the following example with your name the number of your order and your request.
-     image: https://imgur.com/gallery/HjPi8.png
+ - typing: true
+   wait: 1s
+   text: We are here to listen to you:)
+ - typing: true
+   wait: 2s
+   text: Just fill the ticket like the one in the following example with your name the number of your order and your request.
+   image: https://imgur.com/gallery/HjPi8.png
  - text: you can find this ticket at the following link -> http://sportevo.pro/ticket_create.php
  - text: Our team will reply as soon as possibile! 
  - text: what do you want to do now?
@@ -123,23 +125,23 @@ Complaints:
 
 Tracking:
  - text: You ordered an article from Sportevo and now you want to know when it will arrive?
-	typing: true
-	    - wait: 1s
+   typing: true
+   wait: 1s
  - text: We have the solution!
-	typing: true
-	    - wait: 2s
- - text: First of all you have to fill our support ticket like the one in the following example with your name and the number of your order and put as object: TRACKING CODE REQUEST.
-	image: https://imgur.com/yswJYPI.png 
-	typing: true
-	    - wait: 2s
- - text: We will give you the tracking number and the link where you can check the status of your order.
-	typing: true
-	    - wait: 1s
- - text: Here you can find our support ticket! -> http://sportevo.pro/ticket_create.php
-	typing: true
-	    - wait: 3s
- - text: what do you want to do now?
-	 quick_replies:
+ - typing: true
+   wait: 2s
+   text: First of all you have to fill our support ticket like the one in the following example with your name and the number of your order and put as object: TRACKING CODE REQUEST.
+   image: https://imgur.com/yswJYPI.png 
+ - typing: true
+   wait: 2s
+   text: We will give you the tracking number and the link where you can check the status of your order.
+ - typing: true
+   wait: 1s
+   text: Here you can find our support ticket! -> http://sportevo.pro/ticket_create.php
+ - typing: true
+   wait: 3s
+   text: what do you want to do now?
+   quick_replies:
 	  - <QR_Costumer> Go back to the consumer menu
 	  - <QR_ByeB> say goodbye!
 
@@ -155,56 +157,56 @@ InfoG:
 
 CreateAccount:
  - text: Do you finally find the product you were looking for? 
-	typing: true
-	    - wait: 1s
+   typing: true
+   wait: 1s
  - text: Perfect!
-	typing: true
-	    - wait: 2s
+   typing: true
+   wait: 2s
  - text: Now you need to create an account to proceed and buy your product.
-	typing: true
-	    - wait: 2s
+   typing: true
+   wait: 2s
  - text: Clicking on the following link you'll be in a page like the one in the example below and then just follow the instructions: https://www.sportevo.pro/create_account.php
-     image: https://imgur.com/26mFQOW.png
-	 typing: true
-	    - wait: 2s
- - text: while if you are already on the website just click on MY ACCOUNT then click on CONTINUE in the section of NEW COSTUMER.
-	typing: true
-	    - wait: 3s
- -text: Now you have to fill the form with your data. Please be sure to fill all the required information. 
+   image: https://imgur.com/26mFQOW.png
+ - typing: true
+   wait: 2s
+   text: while if you are already on the website just click on MY ACCOUNT then click on CONTINUE in the section of NEW COSTUMER.
+ - typing: true
+   wait: 3s
+   text: Now you have to fill the form with your data. Please be sure to fill all the required information. 
  - text: i'll show you an example!
-	image: https://imgur.com/DNQ7rKX.png
-	image: https://imgur.com/Oel1I67.png
+   image: https://imgur.com/DNQ7rKX.png
+   image: https://imgur.com/Oel1I67.png
  - text: Once you fill the form just click on CONTINUE. Don't forget to put the check on the NEWSLETTER option to stay always tuned with Sportevo news and offers!
-	typing: true
-	    - wait: 2s
- - text: Now check you mail box! We've just sent an e-mail to you with a link to confirm your account!
-	typing: true
-	    - wait: 1s
- - text: after that you should have a screen like this:
-	image: https://imgur.com/owR0an3.png
-	typing: true
-	    - wait: 1s
- - text: Now you are ready to complete your process order!
-	typing: true
-	    - wait: 3s
- - text: what do you want to do now?
-	 quick_replies:
+ - typing: true
+   wait: 2s
+   text: Now check you mail box! We've just sent an e-mail to you with a link to confirm your account!
+ - typing: true
+   wait: 1s
+   text: after that you should have a screen like this:
+   image: https://imgur.com/owR0an3.png
+ - typing: true
+   wait: 1s
+   text: Now you are ready to complete your process order!
+ - typing: true
+   wait: 3s
+   text: what do you want to do now?
+   quick_replies:
 	  - <QR_Costumer> Go back to the consumer menu
 	  - <QR_ByeB> say goodbye!
 
 
 DeliveryTime:
  - text: The shipment of your order depends on the availability of the product in the stock. 
-	typing: true
-	    - wait: 1s
- - text: it usually takes 7 working days for a standard shipment.
-	typing: true
-	    - wait: 1s
- - text: while for the armory products this depends on the characteristics of the single product
-	typing: true
-	    - wait: 3s
- - text: what do you want to do now?
-	 quick_replies:
+ - typing: true
+   wait: 1s
+   text: it usually takes 7 working days for a standard shipment.
+ - typing: true
+   wait: 1s
+   text: while for the armory products this depends on the characteristics of the single product
+ - typing: true
+   wait: 3s
+   text: what do you want to do now?
+   quick_replies:
 	  - <QR_Costumer> Go back to the consumer menu
 	  - <QR_ByeB> say goodbye!
 
@@ -220,10 +222,11 @@ PaymentMethod:
 
 WelcomeSentences_QR_furnisher:# this is the furnisher bloc
    - typing: true
-   -text: 
+     wait: text: 1s
+	 text:
       - welcome in the furnisher area!
-   -text: what are you looking for? choose between those section below!
-    quick_replies:
+   - text: what are you looking for? choose between those section below!
+     quick_replies:
       - <QR_SportevoInfo> discover us!
       - <QR_BeFurnisher> Become a furnisher.
 	  - <QR_HTUP> How to upload a product.
@@ -233,100 +236,100 @@ WelcomeSentences_QR_furnisher:# this is the furnisher bloc
 	  - <QR_ByeB> Say Goodbye!
 
 SportevoInfo:
- -text: Here you can discover this about us:
-  quick_replies:
-   -<QR_WWA> who we are?
-   -<QR_VA> our added value
-   -<QR_JU> Join us as a partner
-   -<QR_SP> suitable products
-   -<QR_Furnisher> go back to furnisher menu
+ - text: Here you can discover this about us:
+   quick_replies:
+    -<QR_WWA> who we are?
+    -<QR_VA> our added value
+    -<QR_JU> Join us as a partner
+    -<QR_SP> suitable products
+    -<QR_Furnisher> go back to furnisher menu
 
 
 WWAre:
-	typing: true
-	 - wait: 2s
-	text: Hello! Sportevo is first of all a meeting place where all Sportevi from all over the world are connected
-	typing: true
-	 - wait: 2s
-	text: it's a toolkit to experience your passion and profession in Sport.
-	typing: true
-	 - wait: 1s
-	 text: Join our community and begin to PlayLikeaPro!
-	 text: what do you want to do now?
-	 quick_replies:
-	  - <QR_Furnisher> Go back to the furnisher menu
-	  - <QR_ByeB> say goodbye!
-
+	- typing: true
+	  wait: 2s
+	  text: Hello! Sportevo is first of all a meeting place where all Sportevi from all over the world are connected
+	- typing: true
+	  wait: 2s
+	  text: it's a toolkit to experience your passion and profession in Sport.
+	- typing: true
+	  wait: 1s
+	  text: Join our community and begin to PlayLikeaPro!
+	- text: what do you want to do now?
+	  quick_replies:
+	   - <QR_Furnisher> Go back to the furnisher menu
+	   - <QR_ByeB> say goodbye!
+	
 ValueAdded:
-	text: Since you are a Sport seller what about join an international Sport community? 
-	typing: true
-	 - wait: 2s
-	text: With Sportevo you can also find new costumers and promote some specific products and your brand.
-	typing: true
-	 - wait: 2s
-	text: Have you ever think about optimize your SEO?
-	typing: true
-	 - wait: 2s
-	text:Sportevo can provide you sport market analysis and insights and make your company's digital standing improve!
-	text: what do you want to do now?
-	 quick_replies:
-	  - <QR_Furnisher> Go back to the furnisher menu
-	  - <QR_ByeB> say goodbye!
+	- text: Since you are a Sport seller what about join an international Sport community? 
+	- typing: true
+	  wait: 2s
+	  text: With Sportevo you can also find new costumers and promote some specific products and your brand.
+	- typing: true
+	  wait: 2s
+	  text: Have you ever think about optimize your SEO?
+	- typing: true
+	  wait: 2s
+	  text:Sportevo can provide you sport market analysis and insights and make your company's digital standing improve!
+	- text: what do you want to do now?
+	  quick_replies:
+	   - <QR_Furnisher> Go back to the furnisher menu
+	   - <QR_ByeB> say goodbye!
 
 	
 SuitableProducts:
-  text: The products which fit more to our platform are the easily saleable one.
-  typing: true
-	 - wait: 2s
-  text: Why?
-  typing: true
-	 - wait: 2s
-  text: In order to increase the perception of the value of your brand!
-  typing: true
-	 - wait: 3s
-  text: I suggest to talk to our team so that we can indicate which products will be better sold online.
-  typing: true
-	 - wait: 1s
-  text: Contact us at --> hello@sportevo.pro
-  text: what do you want to do now?
-	 quick_replies:
+  - text: The products which fit more to our platform are the easily saleable one.
+  - typing: true
+	wait: 2s
+    text: Why?
+  - typing: true
+	wait: 2s
+    text: In order to increase the perception of the value of your brand!
+  - typing: true
+	wait: 3s
+    text: I suggest to talk to our team so that we can indicate which products will be better sold online.
+  - typing: true
+	wait: 1s
+    text: Contact us at --> hello@sportevo.pro
+  - text: what do you want to do now?
+	quick_replies:
 	  - <QR_Furnisher> Go back to the furnisher menu
 	  - <QR_ByeB> say goodbye!
 
 FRegister:
  - text: The registration is really easy!  
-	typing: true
-		 - wait: 1s
- - text: Just click on the link below and follow all the steps.
-	typing: true
-	 - wait: 1s
- - text: here the link for the registration --> https://sportevo.pro/playlikeapro/#join-sportevo
+ - typing: true
+   wait: 1s
+   text: Just click on the link below and follow all the steps.
+ - typing: true
+   wait: 1s
+   text: here the link for the registration --> https://sportevo.pro/playlikeapro/#join-sportevo
  - text: while if your're already on our website Homepage just click on the 'Apply on sportevo' button like the one below.
-	image: https://imgur.com/oKNdTpz.png
+   image: https://imgur.com/oKNdTpz.png
  - text: Once you have fill the form check your e-mail box!
-	typing: true
-	 - wait: 1s
- - text: You will receive your nickname and password to login. 
-	 typing: true
-	  - wait: 1s
-   - text: If you are not active yet it's because we are evaluating your request and your products so be patient please.
-	 typing: true
-	 - wait: 1s
- - text: what do you want to do now?
-	 quick_replies:
+ - typing: true
+   wait: 1s
+   text: You will receive your nickname and password to login. 
+ - typing: true
+   wait: 1s
+   text: If you are not active yet it's because we are evaluating your request and your products so be patient please.
+ - typing: true
+   wait: 1s
+   text: what do you want to do now?
+   quick_replies:
 	  - <QR_HTUP> go to Upload product menù 
 	  - <QR_Furnisher> Go back to the furnisher menu
 	  - <QR_ByeB> say goodbye!
 
 UpProduct:
   - text: You can upload any product you want to sell through our platform after they have been confirmed by our team.
-	 typing: true
-	  - wait: 1s
+	typing: true
+	wait: 1s
   - text: It's very easy!
-	 typing: true
-	  - wait: 3s
-  - text: now you can choose if discover how to log into control panel or if you already know how to do it how to fill the product form.
-	  quick_replies:
+  - typing: true
+	wait: 3s
+    text: now you can choose if discover how to log into control panel or if you already know how to do it how to fill the product form.
+	quick_replies:
 	   - <QR_PC> control panel
 	   - <QR_FF> fill the form
 	   - <QR_Furnisher> Go back to the furnisher menu
@@ -335,15 +338,15 @@ UpProduct:
 
 PanelControl:
   - text: here i'll show you how to reach panel control!
-	 typing: true
-	  - wait: 1s
-  - text: you just have lo log with your credential of furnisher and then you'll be redirected to the control panel
-	 typing: true
-	  - wait: 1s
-  - text: now you'll be available to upload your product
-	 typing: true
-	  - wait: 3s
-  - text: what do you want to do?
+  - typing: true
+	wait: 1s
+    text: you just have lo log with your credential of furnisher and then you'll be redirected to the control panel
+  - typing: true
+	wait: 1s
+    text: now you'll be available to upload your product
+  - typing: true
+	wait: 3s
+    text: what do you want to do?
 	quick_replies:
 	  - <QR_FF> go to the guide to how upload a product 
 	  - <QR_Furnisher> Go back to the furnisher menu
@@ -351,73 +354,73 @@ PanelControl:
      
 FullfillForm:
   - text: Once you have logged on Sportevo this is the screen you'll see:
-		image: https://imgur.com/W0w6lbT.png
-		typing: true
-		 - wait: 1s
-  - text: now in order to upload a product you've to follow those steps:
-	 typing: true
-	  - wait: 1s
-  - text: you have to enter and click on CATALOG
-	 typing: true
-	  - wait: 1s
-  - text: Then select the correct category.
-	 typing: true
-	  - wait: 1s
-  - text: Now click on NEW PRODUCT
-	 typing: true
-	  - wait: 1s
-  - text: Now just fill the form with the description of the product.
-	 typing: true
-	  - wait: 1s
-  - text: You can now see the PREVIEW and then click INSERT.
-	 typing: true
-	  - wait: 3s
-  - text: what do you want me to do for you now?
-	 quick_replies:
+	image: https://imgur.com/W0w6lbT.png
+  -	typing: true
+	wait: 1s
+    text: now in order to upload a product you've to follow those steps:
+  - typing: true
+	wait: 1s
+    text: you have to enter and click on CATALOG
+  - typing: true
+	wait: 1s
+    text: Then select the correct category.
+  - typing: true
+	wait: 1s
+    text: Now click on NEW PRODUCT
+  - typing: true
+	wait: 1s
+    text: Now just fill the form with the description of the product.
+  - typing: true
+	wait: 1s
+    text: You can now see the PREVIEW and then click INSERT.
+  - typing: true
+	wait: 3s
+    text: what do you want me to do for you now?
+	quick_replies:
 	  - <QR_Fill> show me how to fill well the product details
 	  - <QR_Furnisher> Go back to the furnisher menu
 	  - <QR_ByeB> say goodbye!
 
 FillPD:
   - text: to have a good product card you've to be sure to to put all the required information about your product.
-	 typing: true
-	  - wait: 1s
-  - text: Then be sure to upload some catchy pictures of your product.
-	 typing: true
-	  - wait: 1s
-  - text: In the ADD NEW PRODUCT section you can choose an image. 
-	 typing: true
-	  - wait: 1s
-  - text: Upload a bigger image in the second box so customers will be able to see a big version of your product in the description page.
-	 typing: true
-	  - wait: 1s
-  - text: It's also possible to customize the price of each single country destination
-	typing: true
-	  - wait: 1s
-  - text: just put different prices on the specific fields.
-		image: https://i.imgur.com/o0JHZMT.png
-		typing: true
-		 - wait: 1s
-  - text: In order to maximize the quality of the image you upload it is reccomended to use a minimum standard of 1200 pixel for the width.
-		image: https://i.imgur.com/yMSy29Z.png
-		typing: true
-		- wait: 1s
-  - text:You can also monitor your products costs easily uploading not only the price but also the costs that you have to support in the specific field.
-		image: https://i.imgur.com/sjYNtaC.png
-		typing: true
-		- wait: 1s
-  - text: that was all :)
-	 typing: true
-	  - wait: 3s
-  - text: what do you want to do now?
-		quick_replies:
-		  - <QR_Furnisher> Go back to the furnisher menu
-		  - <QR_ByeB> say goodbye!
+  - typing: true
+	wait: 1s
+    text: Then be sure to upload some catchy pictures of your product.
+  - typing: true
+	wait: 1s
+    text: In the ADD NEW PRODUCT section you can choose an image. 
+  - typing: true
+	wait: 1s
+    text: Upload a bigger image in the second box so customers will be able to see a big version of your product in the description page.
+  - typing: true
+	wait: 1s
+    text: It's also possible to customize the price of each single country destination
+  -	typing: true
+	wait: 1s
+    text: just put different prices on the specific fields.
+	image: https://i.imgur.com/o0JHZMT.png
+  -	typing: true
+	wait: 1s
+    text: In order to maximize the quality of the image you upload it is reccomended to use a minimum standard of 1200 pixel for the width.
+	image: https://i.imgur.com/yMSy29Z.png
+  -	typing: true
+	wait: 1s
+    text:You can also monitor your products costs easily uploading not only the price but also the costs that you have to support in the specific field.
+	image: https://i.imgur.com/sjYNtaC.png
+  -	typing: true
+	wait: 1s
+    text: that was all :)
+  - typing: true
+	wait: 3s
+    text: what do you want to do now?
+	quick_replies:
+	  - <QR_Furnisher> Go back to the furnisher menu
+	  - <QR_ByeB> say goodbye!
 
 Support:
 	- text: For any further information please don't hesitate to contact us: http://sportevo.pro/ticket_create.php
 	- text: what do you want to do now?
-		quick_replies:
+	  quick_replies:
 		 - <QR_Furnisher> Go back to the furnisher menu
 		 - <QR_ByeB> say goodbye!
 

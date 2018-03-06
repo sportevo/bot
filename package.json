@@ -5,11 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "botpress": "1.x",
-    "botpress-messenger": "git+https://github.com/botpress/botpress-messenger.git",
+    "botpress-messenger": "^2.2.11",
     "botpress-platform-webchat": "^0.4.7",
     "botpress-terminal": "^1.0.2",
     "botpress-web": "1.x",
     "email-templates": "^3.3.3",
+    "messenger": "0.0.9",
     "nodemailer": "^4.4.2",
     "pug": "^2.0.0-rc.4",
     "react": "^16.2.0",
